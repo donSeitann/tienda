@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- que sea movile frist  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--eso de arriba-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> no se si es lo mismo tengo que buscar-->
+    <link rel="shortcut icon" href="imagenes/icon.png" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>la tienda</title>
+  </head>
+  <body>
+      <header class="header">
+        <h1>electro hogar</h1>
+        <img src="imagenes\logo.png" alt="logo de tienda" id="logoDeTienda" />
+      </header>   
+   <!-- no queda bien ver luego <div class="col-sm-12 col--md-6 col-xl-6"> -->
+      <nav class="nav-pills">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas\categorias.html">categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas\sucursales.html">sucursales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas\ofertas.html">ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas\rodados.html">rodados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+       </ul>
+      </nav>
+    </div>
+      <main>
+        <div class="ingreso">
+          <div class="col-sm-12 col--md-6 col-xl-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        </div>
+        <section class="articulos">
+          <article class="inicio">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Ducimus laudantium possimus repudiandae tempora asperiores doloremque 
+               quam ullam dolor voluptatem! Maiores.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              quo quaerat, ipsum unde at facilis voluptatem distinctio laborum
+              optio. Repellat ut id nobis neque at blanditiis odit enim
+              similique illum.
+            </p>
+          </article>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">DESCUBRI!!</h5>
+                  <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Libero reiciendis, suscipit sequi, neque ratione provident dolor ab illo doloribus 
+                    quaerat eligendi inventore magni dicta voluptatibus laudantium iste fugit, explicabo
+                     enim..</p>
+                  <a href="paginas/rodados.html" class="btn btn-primary">Ver màs!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Hasta 40% off</h5>
+                  <p class="card-text">hasta 18 cuotas Lorem 
+                    ipsum dolor sit amet consectetur adipisicing elit
+                    . Error, ipsa..</p>
+                  <a href="paginas/ofertas.html" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <h8>tienda tech <a href=""></a> </h8>
+        <h8>redes sociales <a href=""></a> </h8>
+        <img
+          src="imagenes\instagram.png"
+          alt="instagram"
+          id="insta"
+          class="insta"
+        />
+        <img
+          src="imagenes\facebook.png"
+          alt="facebook"
+          id="face"
+          class="face"
+        />
+        <img
+          src="imagenes\logotipo-de-twitter.png"
+          alt="twitter"
+          id="twit"
+          class="twit"
+        />
+      </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" 
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
+  </body>
+</html>
